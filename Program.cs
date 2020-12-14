@@ -11,7 +11,7 @@ namespace POO_Static
 
             // Chamamos nossa classe estática, sem precisar instanciar
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Dolar");
+            Console.WriteLine("Dólar");
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine( $"Convertendo Dólar para Reais: {Conversor.DolarParaReais(valor)}" );
             Console.WriteLine( $"Convertendo Reais para Dólar: {Conversor.RealParaDolar(valor)}" );
